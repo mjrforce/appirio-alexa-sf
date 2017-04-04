@@ -1,0 +1,7 @@
+<!--
+    Author: Matthew Rumschlag
+    Repository: https://github.com/mjrforce/appirio-alexa-sf
+    Description: A proxy between Amazon and Salesforce for fetching an access token from a refresh token.
+-->
+<apex:page controller="AlexaOAuthRefreshController" action="{!onLoad}">
+</apex:page>

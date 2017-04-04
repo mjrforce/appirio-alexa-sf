@@ -1,0 +1,7 @@
+<!--
+    Author: Matthew Rumschlag
+    Repository: https://github.com/mjrforce/appirio-alexa-sf
+    Description: A proxy between Alexa and Salesforce for starting the OAuth process. Add this page to your site.
+-->
+<apex:page showheader="False" sidebar="false" standardstylesheets="false" doctype="html-5.0" controller="AlexaOAuthStarterController" action="{!onload}" >
+</apex:page>

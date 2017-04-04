@@ -1,0 +1,32 @@
+<!--
+    Author: Matthew Rumschlag
+    Repository: https://github.com/mjrforce/appirio-alexa-sf
+    Description: A Proxy between Salesforce Connected App and Amazon. Add this page to your site.
+-->
+<apex:page controller="AlexaOAuthCallbackProxyController" showheader="False" sidebar="false" doctype="html-5.0" standardstylesheets="false" >
+
+
+<script type="text/javascript" >
+ window.onload = function(){
+     if({!$Setup.Alexa_Settings__c.Auth_Code_Grant__c}){
+      location.replace('{!onLoadAuthCode}'); 
+       
+     }else{
+     var anchorElement = window.location.hash.substring(1);
+     AlexaOAuthCallbackProxyController.onLoadHash(anchorElement, function(result, event){
+            var elem = document.createElement('textarea');
+            elem.innerHTML = result;
+            var decoded = elem.value;
+            console.log(decoded);
+            location.replace(decoded); 
+      
+     });
+    
+    }
+     
+ };
+
+ </script>
+ 
+
+ </apex:page>

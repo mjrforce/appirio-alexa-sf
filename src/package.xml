@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ASkillRequest</members>
+        <members>ASkillResponse</members>
+        <members>AlexaAccountInfoIntent</members>
+        <members>AlexaActivityInfoIntent</members>
+        <members>AlexaForceHelpIntent</members>
+        <members>AlexaIntent</members>
+        <members>AlexaOAuthCallbackProxyController</members>
+        <members>AlexaOAuthRefreshController</members>
+        <members>AlexaOAuthStarterController</members>
+        <members>AlexaRedAccountInfoIntent</members>
+        <members>AlexaRestTest</members>
+        <members>AlexaSkill</members>
+        <members>AlexaSkillRESTApp</members>
+        <members>AlexaUserInfoIntent</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AlexaOAuthCallbackProxy</members>
+        <members>AlexaOAuthRefresh</members>
+        <members>AlexaOAuthStarter</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Alexa_Apps__c</members>
+        <members>Alexa_Settings__c</members>
+        <members>RestLog__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Appirio</members>
+        <name>CustomSite</name>
+    </types>
+    <version>39.0</version>
+</Package>
