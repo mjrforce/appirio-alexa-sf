@@ -97,7 +97,6 @@
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
-    <gender>Feminine</gender>
     <label>Rest Log</label>
     <listViews>
         <fullName>All</fullName>
